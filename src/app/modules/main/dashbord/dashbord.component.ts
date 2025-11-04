@@ -14,6 +14,18 @@ export class DashbordComponent implements OnInit {
 
   getImgDashBord() {
     this.arrayProjects = [
+ {
+        title: "Mawsool-Logistics-Dashboard",
+        route: "https://github.com/shimaadaowd/Mawsool-Logistics-Dashboard",
+      }, {
+        title: "Third-Riyadh-Health-Cluster",
+        route: "https://github.com/shimaadaowd/Retail_Dashboard",
+      },
+
+
+
+
+
       {
         title: "Retail_Dashboard",
         route: "https://github.com/shimaadaowd/Retail_Dashboard",
