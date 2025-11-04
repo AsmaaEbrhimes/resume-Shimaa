@@ -49,15 +49,32 @@
   .Wrapper-about {
     flex-wrap: wrap;
     flex-direction: column;
-    padding-top: 20px;
-    div:first-child {
+    width: 100% !important;
+
+    > div:first-child {
       order: 2;
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
     }
-    div:last-child {
+
+    > div:last-child {
       order: 1;
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+
       img {
         width: 100% !important;
         border-radius: 10px;
+      }
+    }
+
+    .counter {
+      width: 100% !important;
+
+      > div {
+        width: 100% !important;
       }
     }
   }
