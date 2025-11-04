@@ -48,7 +48,7 @@ progress::-webkit-progress-value {
 @media (min-width: 320px) and (max-width: 767px) {
   .main-row {
     justify-content: center;
-        gap: 30px;
+        // gap: 30px;
   }
   .card-progres {
     flex: 1 1 100%;
@@ -59,6 +59,6 @@ progress::-webkit-progress-value {
 @media (min-width:767px) and (max-width:1200px){
     .main-row {
     justify-content: center;
-    gap: 30px;
+    // gap: 30px;
   }
 }

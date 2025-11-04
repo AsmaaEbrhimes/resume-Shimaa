@@ -1,82 +1,64 @@
-.section-about {
-  z-index: 888;
-  background-color: black;
-  p {
-    font-size: 20px;
-    font-weight: bolder;
-  }
-}
-
- .img-wrapper img{
-  width: 100%;
-  height: 100%;
- }
-
-
-.skill-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(var(--angle)) translate(160px) rotate(calc(-1 * var(--angle)));
-  background: linear-gradient(45deg, #0d3347, #1581c9);
-  color: white;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  font-size: 0.75rem;
-  padding: 6px;
-  text-align: center;
-  white-space: normal;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  box-shadow: 0 0 10px #1581c9;
-  z-index: 2;
+.Wrapper-about {
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .img-wrapper img{
+  justify-content: space-between;
+  background-color: rgb(23, 32, 49);
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--primary-color);
+  div:first-child {
+    width: 50% !important;
     text-align: center;
     margin: auto;
-    width: 100%;
+    padding: 20px 0;
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+    }
   }
 
-  .response-gap{
-    gap: 30px;
+  div:last-child {
+    width: 50%;
   }
 
-  .skill-circle {
-  transform: translate(-50%, -50%) rotate(var(--angle)) translate(150px) rotate(calc(-1 * var(--angle)));
-}
-}
-
-@media (min-width: 767px) and (max-width: 1200px) {
-  .img-wrapper {
+  .counter {
+    display: flex;
+    align-items: center;
     text-align: center;
-    margin: auto;
-    width: 100%;
-  }
-
-.skill-circle {
-  transform: translate(-50%, -50%) rotate(var(--angle)) translate(299px) rotate(calc(-1 * var(--angle)));
-}
-  .response-gap{
+    justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
+    width: 100% !important;
+    div {
+      text-align: center;
+      margin: auto;
+      width: 40%;
+      span {
+        word-wrap: break-word;
+        white-space: normal;
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
 
-
-
-
-
-
+@media (min-width: 320px) and (max-width: 1200px) {
+  .Wrapper-about {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+    div:first-child {
+      order: 2;
+    }
+    div:last-child {
+      order: 1;
+      img {
+        width: 100% !important;
+        border-radius: 10px;
+      }
+    }
+  }
+}

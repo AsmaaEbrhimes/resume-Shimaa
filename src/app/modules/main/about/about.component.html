@@ -1,51 +1,20 @@
-<div class="section-about mt-5 mb-5 pb-5">
-  <div class="header-title ms-4">
-    <h3>About Me</h3>
-  </div>
+<div class="Wrapper-about">
+  <div>
+    <h1>Shimaa <span class="blue-color">Ahamed</span> Daowd</h1>
+    <h3>Data Analyst <span class="blue-color">&</span> PowerBI Developer</h3>
+    <p>Discover the benefits of data analytics and make better decisions</p>
+    <p>Highlights from my learning and career journey.</p>
 
-  <div class="row response-gap mt-5">
-    <div class="col-12 col-xl-4" appFadeanmation="animate__slideInLeft">
-      <div class="skill-wrapper">
-        <span class="skill-circle" style="--angle: 0deg">LinkedIn 2000+</span>
-        <span class="skill-circle" style="--angle: 60deg">Sessions 400+</span>
-        <span class="skill-circle" style="--angle: 120deg"
-          >Certificates 50+</span
-        >
-        <span class="skill-circle" style="--angle: 180deg">Businness 15+</span>
-        <span class="skill-circle" style="--angle: 240deg">Feedback 100+</span>
-
-        <div class="img-wrapper">
-          <img src="../../../../assets/images/Shimaa.png" alt="test" />
-        </div>
+    <div class="counter">
+      <div *ngFor="let item of data" class="counter-item">
+        <h3>{{ item.displayNumber }}{{ item.number >= 1000 ? 'k' : '' }}+</h3>
+        <span>{{ item.title }}</span>
       </div>
     </div>
-
-    <div class="col-12 col-xl-8" appFadeanmation="animate__slideInRight">
-      <p>
-        I am a dedicated Data Analyst and Business Intelligence Developer with a
-        solid academic
-        <span class="blue-color">foundation and a Master’s</span> degree in Data
-        Science, backed by a strong technical background. My career is driven by
-        a passion for transforming raw data into strategic
-        <span class="blue-color"
-          >insights that support decision-making and drive</span
-        >
-        measurable performance improvements.
-      </p>
-      <p>
-        With diverse experience across analytical roles and academic engagement,
-        I specialize in
-        <span class="blue-color"
-          >bridging the gap between complex data and impactful</span
-        >
-        business outcomes. I thrive in dynamic environments that prioritize
-        curiosity, continuous learning, and evidence-based problem-solving. My
-        mission is to
-        <span class="blue-color"
-          >empower data-driven transformations through meaningful</span
-        >
-        insights that align with organizational goals and long-term growth.
-      </p>
-    </div>
+  </div>
+  <div>
+    <img
+      src="assets/images/WhatsApp Image 2025-07-28 at 17.58.07_ff76b4e4.jpg"
+    />
   </div>
 </div>

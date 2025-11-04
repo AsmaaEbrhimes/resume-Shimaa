@@ -123,6 +123,12 @@ a{
   text-decoration: none !important;
 }
 
+.margin-section{
+  position: relative;
+margin-bottom: 100px !important;
+}
+
+
 @media (min-width: 320px) and (max-width: 767px) {
   .header-title::before {
     width: 15%;
