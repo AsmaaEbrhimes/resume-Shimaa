@@ -20,10 +20,10 @@ export class AboutComponent implements OnInit {
     this.data = [
       { title: "Business Domains Analyzed", number: 15, displayNumber: 0 },
       { title: "Feedback Reviews", number: 100, displayNumber: 0 },
-      { title: "Linkedin Network Of Followers", number: 2000, displayNumber: 0 },
-      { title: "Learnes Impected Via Interactive", number: 5000, displayNumber: 0 },
-      { title: "Learnes Impected Via Interactive", number: 5000, displayNumber: 0 },
-      { title: "Certificates Showcaing Expertise", number: 5000, displayNumber: 0 },
+      { title: "Linkedin Network Of Followers", number: 2500, displayNumber: 0 },
+      { title: "Learnes Impected Via Interactive", number: 500, displayNumber: 0 },
+      { title: "Certificates Showcaing Expertise", number: 50, displayNumber: 0 },
+      { title: "Impactful Data Analysis Projects", number: 30, displayNumber: 0 },
     ];
   }
 

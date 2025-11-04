@@ -30,7 +30,7 @@ export class ExperiensComponent implements OnInit {
       },
 
       {
-        title: "Data Analyst Intern",
+        title: "",
         suptitle: " Mentorness)",
         arrayDesc: [
           "Applied my data analysis skills (SQL and Power BI) in real-world business scenarios.",

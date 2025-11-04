@@ -1,13 +1,11 @@
 <div class="Wrapper-about">
   <div>
-    <h1>Shimaa <span class="blue-color">Ahamed</span> Daowd</h1>
-    <h3>Data Analyst <span class="blue-color">&</span> PowerBI Developer</h3>
-    <p>Discover the benefits of data analytics and make better decisions</p>
+    <h1>Highlights from my <span class="blue-color">learning</span></h1>
     <p>Highlights from my learning and career journey.</p>
 
     <div class="counter">
       <div *ngFor="let item of data" class="counter-item">
-        <h3>{{ item.displayNumber }}{{ item.number >= 1000 ? 'k' : '' }}+</h3>
+        <h3>{{ item.displayNumber }}+</h3>
         <span>{{ item.title }}</span>
       </div>
     </div>
