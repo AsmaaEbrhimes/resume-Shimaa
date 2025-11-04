@@ -30,15 +30,6 @@ export class ExperiensComponent implements OnInit {
       },
 
       {
-        title: "",
-        suptitle: " Mentorness)",
-        arrayDesc: [
-          "Applied my data analysis skills (SQL and Power BI) in real-world business scenarios.",
-          "Deepened and enriched my hands-on experience by handling complex data-driven challenges",
-        ],
-      },
-
-      {
         title: " Data Analysis Instructor",
         suptitle: " Institute of Management Professionals (IMP)- Part time",
         arrayDesc: [
