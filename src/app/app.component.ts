@@ -29,7 +29,6 @@ export class AppComponent implements OnInit{
 //     if (selectedVoice) {
 //       message.voice = selectedVoice;
 //     }
-
 //     speechSynthesis.speak(message);
 //   }
 
