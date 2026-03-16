@@ -36,7 +36,4 @@ export class AppComponent implements OnInit{
 
 
 }
-function particlesJS(arg0: string, arg1: { particles: { number: { value: number; }; size: { value: number; }; move: { speed: number; }; line_linked: { enable: boolean; distance: number; color: string; opacity: number; width: number; }; }; interactivity: { detect_on: string; events: { onhover: { enable: boolean; mode: string; }; onclick: { enable: boolean; mode: string; }; }; modes: { repulse: { distance: number; duration: number; }; push: { particles_nb: number; }; }; }; retina_detect: boolean; }) {
-  throw new Error('Function not implemented.');
-}
 
